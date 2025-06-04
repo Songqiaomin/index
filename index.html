@@ -1,32 +1,48 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人简介</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的第一个网页</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    .header,
+    .content,
+    .footer {
+      background: #eaeaea;
+      padding: 20px;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .content h1 {
+      color: #2b542c;
+    }
+  </style>
 </head>
+
 <body>
-    <div class="container">
-        <header>
-            <h1>欢迎来到我的个人简介页面</h1>
-        </header>
-         
-       
-        <section class="bio">
-            <h2>个人简介</h2>
-            <p>姓名：songqiaomin</p >
-            <p>年龄：20</p >
-            <p>班级：人工智能23—2</p>
-            <p>生日：2004.02.</p>
-            <p>爱好：吃喝玩乐</p>
-        </section>
-        
-        <section class="contact">
-            <h2>联系方式</h2>
-            <p>邮箱: [你的邮箱]</p >
-            <p>电话: [你的电话]</p >
-        </section>
+  <div class="container">
+    <div class="header">我的第一个网页</div>
+    <div class="content">
+      <h1>欢迎来到我的网页</h1>
+      <p>这是一个简单的静态网页。</p>
     </div>
+    <div class="footer">这个网页已经预留了</div>
+  </div>
 </body>
+
 </html>
